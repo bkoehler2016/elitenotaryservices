@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 :root{
---main-color:#607a97;
+--main-color: #607a97;
 }
 
 body {
@@ -49,9 +49,7 @@ blockquote, q {
 		content: '';
 		content: none;
 	}
-.about{
-	color: red;
-}
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -2208,13 +2206,17 @@ input, select, textarea {
 				display: block;
 				height: 20em;
 				border-radius: 0;
+				margin: 10px;
 			}
 	
 				.image.main img {
 					border-radius: 0;
 					max-width: 100%;
 					height: auto;
+					mix-blend-mode: multiply;
 				}
+				
+				
 
 /* List */
 
